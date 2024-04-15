@@ -58,7 +58,6 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
 
                 maxOrderId++;
                 string newOrderId = "HD" + maxOrderId;
-
                 dgv.Rows.Clear();
                 cb1.Items.Add(newOrderId);
                 cb1.SelectedIndex = cb1.Items.Count - 1;
