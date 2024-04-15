@@ -1,0 +1,621 @@
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.SuggestedBindingRedirects.cache
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.exe.config
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\Quản Lý .8AE34164.Up2Date
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\84967\OneDrive\Documents\GitHub\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.barcodes.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.commons.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.forms.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.io.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.kernel.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.layout.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.pdfa.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.pdfua.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.sign.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.svg.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Buffers.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Memory.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.barcodes.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.commons.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.forms.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.io.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.kernel.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.layout.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.pdfa.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.pdfua.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.sign.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itext.svg.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Buffers.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Memory.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\Quản Lý .8AE34164.Up2Date
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+D:\code\vs - C#\Inventory\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itextsharp.dll
+D:\code\vs - C#\Inventory\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-2\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\Cấu trúc dữ liệu\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý .8AE34164.Up2Date
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\PhamTrung\Desktop\Doan1\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\Administrator\Downloads\Du-an-OOP-master\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\Administrator\Downloads\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.barcodes.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.commons.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.forms.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.io.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.kernel.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.layout.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfa.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfua.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.sign.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.svg.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itextsharp.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Buffers.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Memory.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.barcodes.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.commons.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.forms.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.io.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.kernel.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.layout.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfa.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.pdfua.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.sign.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itext.svg.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\itextsharp.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Buffers.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Memory.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\Du-an-OOP-master1\FastFoodDemo\obj\Debug\FastFoodDemo.Form2_UC2.Product_UC.resources

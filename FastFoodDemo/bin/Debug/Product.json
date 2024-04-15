@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "Name": "Apple",
+    "Quantity": 5,
+    "Price": 5.0,
+    "Discount": 0.1,
+    "DateOut": "2004-04-10T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Name": "Banana",
+    "Quantity": 10,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2004-05-31T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Name": "Banana",
+    "Quantity": 5,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-03T00:00:00"
+  },
+  {
+    "Id": 4,
+    "Name": "Banana",
+    "Quantity": 10,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-03T00:00:00"
+  },
+  {
+    "Id": 5,
+    "Name": "Banana",
+    "Quantity": 5,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-03T00:00:00"
+  },
+  {
+    "Id": 6,
+    "Name": "Apple",
+    "Quantity": 50,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-04T00:00:00"
+  },
+  {
+    "Id": 7,
+    "Name": "Banana",
+    "Quantity": 50,
+    "Price": 100.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-04T00:00:00"
+  },
+  {
+    "Id": 8,
+    "Name": "Banana",
+    "Quantity": 100,
+    "Price": 56.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-04T00:00:00"
+  },
+  {
+    "Id": 9,
+    "Name": "Orange",
+    "Quantity": 6,
+    "Price": 67.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-04T00:00:00"
+  },
+  {
+    "Id": 10,
+    "Name": "Dưa leo",
+    "Quantity": 50,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-04T00:00:00"
+  },
+  {
+    "Id": 11,
+    "Name": "Hạt điều",
+    "Quantity": 10,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  }
+]

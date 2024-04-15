@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Name": "Lúa mì",
+    "QuantityOnHand": 100,
+    "DateIn": "2024-04-15T12:34:47.0841891+07:00"
+  },
+  {
+    "Id": 2,
+    "Name": "Hạt điều",
+    "QuantityOnHand": 90,
+    "DateIn": "2024-04-15T12:34:52.7398228+07:00"
+  },
+  {
+    "Id": 3,
+    "Name": "Hành tây",
+    "QuantityOnHand": 100,
+    "DateIn": "2024-04-15T12:34:57.2523904+07:00"
+  },
+  {
+    "Id": 4,
+    "Name": "Chuối",
+    "QuantityOnHand": 100,
+    "DateIn": "2024-04-15T12:35:09.4678201+07:00"
+  },
+  {
+    "Id": 5,
+    "Name": "Dưa leo",
+    "QuantityOnHand": 100,
+    "DateIn": "2024-04-15T12:35:20.4533456+07:00"
+  },
+  {
+    "Id": 6,
+    "Name": "Lúa mì",
+    "QuantityOnHand": 300,
+    "DateIn": "2024-04-15T14:25:57.6896296+07:00"
+  }
+]

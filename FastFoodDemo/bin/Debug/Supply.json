@@ -1,0 +1,37 @@
+[
+    {
+        "namesupply": "FreshFarms",
+        "position": "456 Đại lộ Hòa Bình",
+        "email": "info@freshfarms.com",
+        "phone": "0123456789",
+        "nameproduct": ["Rau cải", "Cà rốt", "Cà chua"]
+    },
+    {
+        "namesupply": "Nature'sHarvest",
+        "position": "789 Phố Hoa Lư",
+        "email": "contact@naturesharvest.com",
+        "phone": "0987654321",
+        "nameproduct": ["Lúa mì", "Hạt điều", "Hành tây"]
+    },
+    {
+        "namesupply": "EcoProduce",
+        "position": "1010 Đường Xanh",
+        "email": "sales@ecoproduce.com",
+        "phone": "0369852147",
+        "nameproduct": ["Dưa leo", "Bí ngô", "Bắp cải"]
+    },
+    {
+        "namesupply": "FarmFreshOrganics",
+        "position": "222 Lê Lợi",
+        "email": "hello@farmfreshorganics.com",
+        "phone": "9874123658",
+        "nameproduct": ["Chuối", "Nho", "Măng tây"]
+    },
+    {
+        "namesupply": "GreenEarthProvisions",
+        "position": "333 Cao Lãnh",
+        "email": "contactus@greenearthprovisions.com",
+        "phone": "0214785963",
+        "nameproduct": ["Dưa hấu", "Cà pháo", "Cải thảo"]
+    }
+]

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ArrayOfPromotion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Promotion>
+    <ProductType>LOẠI 1</ProductType>
+    <PromotionCode>promo001</PromotionCode>
+    <PromotionName>Thích tặng</PromotionName>
+    <StartDate>2024-04-01T00:00:00</StartDate>
+    <EndDate>2024-04-26T00:00:00</EndDate>
+    <Description>Tặng Xe hơi nếu hóa đơn mua hàng trên 5 tỷ</Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 2</ProductType>
+    <PromotionCode>promo002</PromotionCode>
+    <PromotionName>Thích tặng 2</PromotionName>
+    <StartDate>2024-04-02T00:00:00</StartDate>
+    <EndDate>2024-04-04T00:00:00</EndDate>
+    <Description>Tặng Xe hơi nếu hóa đơn mua hàng trên 2 tỷ</Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 3</ProductType>
+    <PromotionCode>PROMO003</PromotionCode>
+    <PromotionName>Tết phát tài</PromotionName>
+    <StartDate>2024-03-13T00:00:00</StartDate>
+    <EndDate>2024-04-01T00:00:00</EndDate>
+    <Description>Tặng 2 chai dầu ăn với hóa đơn trên 50k </Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 5</ProductType>
+    <PromotionCode>PROMO2021</PromotionCode>
+    <PromotionName>THÍCH TẶNG</PromotionName>
+    <StartDate>2024-04-02T00:00:00</StartDate>
+    <EndDate>2024-04-30T00:00:00</EndDate>
+    <Description>TẶNG IPHONE NẾU HÓA ĐƠN TRÊN 1 TỶ</Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 4</ProductType>
+    <PromotionCode>PROMO006</PromotionCode>
+    <PromotionName>MUA KẺO HẾT</PromotionName>
+    <StartDate>2024-03-13T00:00:00</StartDate>
+    <EndDate>2024-04-01T00:00:00</EndDate>
+    <Description>TẶNG CÁI NỊT VỚI HÓA ĐƠN TRÊN 2 TỶ</Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 3</ProductType>
+    <PromotionCode>PROMO022</PromotionCode>
+    <PromotionName>ƯỚC GÌ ĐƯỢC NẤY</PromotionName>
+    <StartDate>2024-04-03T00:00:00</StartDate>
+    <EndDate>2024-04-26T00:00:00</EndDate>
+    <Description>TẶNG 20% GIÁ TRỊ ĐƠN HÀNG</Description>
+  </Promotion>
+  <Promotion>
+    <ProductType>LOẠI 4</ProductType>
+    <PromotionCode>REGRGERRH</PromotionCode>
+    <PromotionName>SỰ KIỆN MÙA HÈ</PromotionName>
+    <StartDate>2024-04-13T00:00:00</StartDate>
+    <EndDate>2024-04-16T00:00:00</EndDate>
+    <Description>TẶNG 10% GIÁ TRỊ HÓA ĐƠN </Description>
+  </Promotion>
+</ArrayOfPromotion>
