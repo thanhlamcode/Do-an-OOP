@@ -4,16 +4,33 @@ using iTextSharp.text;
 using System;
 using System.IO;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+using FastFoodDemo.Form2_UC2.Form2_UC2_Code;
 
 namespace FastFoodDemo.Form2_UC3
 {
     public partial class OrderManagementForm : UserControl
     {
+        private List<Order> orders;
+        private List<Inventory> inventories;
+
         public OrderManagementForm()
         {
             InitializeComponent();
 
-            LoadDataIntoComboBox("Order.txt", cbMaHD);
+            string orderFilePath = "Order.json";
+
+            if (File.Exists(orderFilePath))
+            {
+                string jsonData = File.ReadAllText(orderFilePath);
+                orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
+
+                foreach (Order order in orders)
+                {
+                    cbMaHD.Items.Add(order.orderID);
+                }
+            }
         }
 
         private void OrderManagementForm_Load(object sender, EventArgs e)
@@ -21,30 +38,6 @@ namespace FastFoodDemo.Form2_UC3
             btnHuyHD.Enabled = false;
             btnLuuHD.Enabled = false;
             btnInHD.Enabled = false;
-        }
-
-        private void LoadDataIntoComboBox(string filePath, ComboBox cb)
-        {
-            // Kiểm tra xem tệp tin tồn tại
-            if (File.Exists(filePath))
-            {
-                // Đọc dữ liệu từ tệp tin
-                string[] lines = File.ReadAllLines(filePath);
-
-                // Thêm dữ liệu từ cột đầu tiên vào ComboBox
-                foreach (string line in lines)
-                {
-                    string[] parts = line.Split(','); // Phân tách dữ liệu theo dấu chấm phẩy
-                    if (parts.Length > 0 && cb == cbMaHD)
-                    {
-                        cb.Items.Add(parts[0]); // Thêm phần tử đầu tiên vào ComboBox
-                    }
-                    else if (parts.Length > 1 && cb == cbSP)
-                    {
-                        cb.Items.Add(parts[1]);
-                    }
-                }
-            }
         }
 
         private void cbMaHD_SelectedIndexChanged(object sender, EventArgs e)
@@ -60,62 +53,58 @@ namespace FastFoodDemo.Form2_UC3
 
                 string selectedMaHD = cbMaHD.SelectedItem.ToString();
 
-                string orderFilePath = "Order.txt";
+                string orderFilePath = "Order.json";
 
-                // Kiểm tra xem tệp tin tồn tại
-                if (File.Exists(orderFilePath))
+                // Đọc dữ liệu từ tệp tin
+                string jsonData = File.ReadAllText(orderFilePath);
+                List<Order> orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
+
+                // Xóa tất cả các hàng hiện có trong DataGridView
+                dgvOrder.Rows.Clear();
+
+                cbSP.Items.Clear();
+
+                string inventoryFilePath = "Inventory.json";
+
+                if (File.Exists(inventoryFilePath))
                 {
-                    // Đọc dữ liệu từ tệp tin
-                    string[] lines = File.ReadAllLines(orderFilePath);
+                    string Data = File.ReadAllText(inventoryFilePath);
+                    inventories = JsonConvert.DeserializeObject<List<Inventory>>(Data);
 
-                    // Xóa tất cả các hàng hiện có trong DataGridView
-                    dgvOrder.Rows.Clear();
-
-                    LoadDataIntoComboBox("Inventory.txt", cbSP);
-
-                    // Tìm dòng chứa thông tin của hóa đơn được chọn
-                    foreach (string line in lines)
+                    foreach (Inventory inventory in inventories)
                     {
-                        string[] parts = line.Split(','); // Phân tách dữ liệu theo dấu chấm phẩy
-                        if (parts.Length > 0 && parts[0] == selectedMaHD) // Kiểm tra xem mã hóa đơn có trùng khớp không
-                        {
-                            // Hiển thị thông tin của hóa đơn trên các controls tương ứng
-                            txtMaHD.Text = parts[0]; // Mã hóa đơn
-                            dateTimePicker1.Value = DateTime.Parse(parts[1]); // Ngày bán
-                            txtNV.Text = parts[2]; // Mã nhân viên
-                            txtKH.Text = parts[3]; // Mã khách hàng
-
-                            // Phân tích thông tin chi tiết của hóa đơn
-                            for (int i = 4; i < parts.Length; i++)
-                            {
-                                string[] productInfo = parts[i].Split('-'); // Phân tách thông tin sản phẩm
-                                if (productInfo.Length == 3)
-                                {
-                                    string productName = productInfo[0].Trim();
-                                    int quantity = int.Parse(productInfo[1].Trim());
-                                    double unitPrice = double.Parse(productInfo[2].Trim());
-                                    double totalPrice = quantity * unitPrice; // Tính thành tiền
-
-                                    // Thêm hàng vào DataGridView
-                                    dgvOrder.Rows.Add(productName, quantity, unitPrice, totalPrice);
-                                }
-                            }
-
-                            double total = 0;
-
-                            // Tính tổng tiền của các sản phẩm trong hóa đơn
-                            foreach (DataGridViewRow row in dgvOrder.Rows)
-                            {
-                                double totalPrice = Convert.ToDouble(row.Cells[3].Value);
-                                total += totalPrice;
-                            }
-
-                            // Hiển thị tổng tiền lên TextBox txtTongTien
-                            txtTongTien.Text = total.ToString();
-
-                            break; // Dừng việc tìm kiếm khi đã tìm thấy thông tin của hóa đơn được chọn
-                        }
+                        cbSP.Items.Add(inventory.Name);
                     }
+                }
+
+                // Tìm hóa đơn được chọn
+                Order selectedOrder = orders.Find(o => o.orderID == selectedMaHD);
+
+                if (selectedOrder != null)
+                {
+                    // Hiển thị thông tin của hóa đơn trên các controls tương ứng
+                    txtMaHD.Text = selectedOrder.orderID; // Mã hóa đơn
+                    dateTimePicker1.Value = selectedOrder.dateTime; // Ngày bán
+                    txtNV.Text = selectedOrder.staffID.ToString(); // Mã nhân viên
+                    txtKH.Text = selectedOrder.customerID.ToString(); // Mã khách hàng
+
+                    // Hiển thị thông tin chi tiết của hóa đơn trên DataGridView
+                    foreach (var detail in selectedOrder.orderDetail)
+                    {
+                        double totalPrice = detail.quantity * detail.unitPrice; // Tính thành tiền
+                        dgvOrder.Rows.Add(detail.productName, detail.quantity, detail.unitPrice, totalPrice);
+                    }
+
+                    // Tính tổng tiền của các sản phẩm trong hóa đơn
+                    double total = 0;
+                    foreach (DataGridViewRow row in dgvOrder.Rows)
+                    {
+                        double totalPrice = Convert.ToDouble(row.Cells[3].Value);
+                        total += totalPrice;
+                    }
+
+                    // Hiển thị tổng tiền lên TextBox txtTongTien
+                    txtTongTien.Text = total.ToString();
                 }
             }
             else
@@ -186,38 +175,46 @@ namespace FastFoodDemo.Form2_UC3
 
         private void cbSP_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string selectedProductId = cbSP.SelectedItem.ToString();
-            string productFilePath = "Product.txt";
-
-            // Kiểm tra xem tệp tin sản phẩm có tồn tại
-            if (File.Exists(productFilePath))
+            try
             {
-                string[] lines = File.ReadAllLines(productFilePath);
-
-                // Duyệt qua các dòng trong file sản phẩm
-                foreach (string line in lines)
+                if (cbSP.SelectedItem != null)
                 {
-                    string[] parts = line.Split(','); // Phân tách dữ liệu bởi dấu phẩy
-                    if (parts.Length == 6 && parts[1] == selectedProductId)
+                    string selectedProductName = cbSP.SelectedItem.ToString();
+
+                    // Khai báo và khởi tạo danh sách sản phẩm
+                    List<Product> products = new List<Product>();
+
+                    // Lấy dữ liệu sản phẩm từ file JSON và gán vào danh sách sản phẩm
+                    string productFilePath = "Product.json";
+                    if (File.Exists(productFilePath))
                     {
-                        // Lấy đơn giá từ phần tử thứ 4 của mảng parts
-                        string unitPrice = parts[3];
-                        // Hiển thị đơn giá lên textbox txtDG
-                        txtDG.Text = unitPrice;
-                        break; // Dừng khi đã tìm thấy đơn giá của sản phẩm
+                        string jsonData = File.ReadAllText(productFilePath);
+                        products = JsonConvert.DeserializeObject<List<Product>>(jsonData);
                     }
-                    else if (parts[1] != selectedProductId)
+
+                    // Tìm sản phẩm được chọn trong danh sách sản phẩm
+                    Product selectedProduct = products.Find(p => p.Name == selectedProductName);
+                    if (selectedProduct != null)
                     {
-                        txtDG.Text = "";
+                        // Hiển thị giá của sản phẩm lên txtDG
+                        txtDG.Text = selectedProduct.Price.ToString();
                     }
                 }
+                else
+                {
+                    txtDG.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi chọn sản phẩm: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnThemHD_Click(object sender, EventArgs e)
         {
             Order order = new Order();
-            order.Add(cbMaHD, txtMaHD, dateTimePicker1);
+            order.Add(cbMaHD, txtMaHD, txtNV, txtKH, dateTimePicker1, dgvOrder);
         }
 
         private void btnHuyHD_Click(object sender, EventArgs e)

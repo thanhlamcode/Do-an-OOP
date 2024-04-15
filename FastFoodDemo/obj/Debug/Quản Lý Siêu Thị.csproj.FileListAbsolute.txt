@@ -689,3 +689,73 @@ C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\obj\Debug\Qu
 C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CopyComplete
 C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
 C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.AssemblyReference.cache
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form1.resources
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2.resources
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2_UC2.Product_UC.resources
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Properties.Resources.resources
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.GenerateResource.cache
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompileInputs.cache
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe.config
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.exe
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\FastFoodDemo.pdb
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Crypto.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.commons.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.forms.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.io.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.layout.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.sign.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.svg.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itextsharp.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Memory.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.dll
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.barcodes.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-connector.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.commons.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.forms.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.io.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.kernel.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.layout.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.pdfa.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.pdfua.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.sign.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.styledxmlparser.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itext.svg.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\itextsharp.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Options.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\Newtonsoft.Json.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Buffers.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Memory.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Numerics.Vectors.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\bin\Debug\System.ValueTuple.xml
+D:\code\vs - C#\Winform\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý .8AE34164.Up2Date

@@ -1,4 +1,0 @@
-1;Nguyễn Văn A;123 Đường A, Q.1;0123456789;nva@example.com
-2;Trần Thị B;456 Đường B, Q.2;0987654321;ttb@example.com
-3;Lê Văn C;789 Đường C, Q.3;0369874123;lvc@example.com
-4;Nguyễn Văn D;312 Đường D, Q.8;03241253532;nvd@example.com

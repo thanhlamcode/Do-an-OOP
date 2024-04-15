@@ -1,0 +1,37 @@
+[
+  {
+    "ID": 1,
+    "name": "Nguyễn Văn A",
+    "address": "123 Đường A, Q.1",
+    "phoneNumber": "0123456789",
+    "email": "nva@example.com"
+  },
+  {
+    "ID": 2,
+    "name": "Trần Thị B",
+    "address": "456 Đường B, Q.2",
+    "phoneNumber": "0987654321",
+    "email": "ttb@example.com"
+  },
+  {
+    "ID": 3,
+    "name": "Lê Văn C",
+    "address": "789 Đường C, Q.3",
+    "phoneNumber": "0369874123",
+    "email": "lvc@example.com"
+  },
+  {
+    "ID": 4,
+    "name": "Nguyễn Văn D",
+    "address": "312 Đường D, Q.8",
+    "phoneNumber": "03241253532",
+    "email": "nvd@example.com"
+  },
+  {
+    "ID": 5,
+    "name": "Đoàn Thanh Lâm",
+    "address": "Nguyễn Tri Phương",
+    "phoneNumber": "037999466",
+    "email": ""
+  }
+]

@@ -9,11 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace FastFoodDemo.Form2_UC3
 {
     public partial class CustomerManagementForm : UserControl
     {
+        private List<Customer> customers;
+
         public CustomerManagementForm()
         {
             InitializeComponent();
@@ -23,38 +26,31 @@ namespace FastFoodDemo.Form2_UC3
 
         private void LoadCustomerData()
         {
-            // Đọc dữ liệu từ file txt
-            string customerFilePath = "Customer.txt";
+            string customerFilePath = "Customer.json";
 
             if (File.Exists(customerFilePath))
             {
-                string[] lines = File.ReadAllLines(customerFilePath);
-                foreach (string line in lines)
-                {
-                    string[] parts = line.Split(';');
-                    if (parts.Length == 5)
-                    {
-                        int id = Convert.ToInt32(parts[0]);
-                        string name = parts[1];
-                        string address = parts[2];
-                        string phoneNumber = parts[3];
-                        string email = parts[4];
+                string jsonData = File.ReadAllText(customerFilePath);
+                customers = JsonConvert.DeserializeObject<List<Customer>>(jsonData);
 
-                        dgvCustomer.Rows.Add(id, name, address, phoneNumber, email);
-                    }
+                foreach (Customer customer in customers)
+                {
+                    dgvCustomer.Rows.Add(customer.ID, customer.name, customer.address, customer.phoneNumber, customer.email);
                 }
+            }
+            else
+            {
+                customers = new List<Customer>();
             }
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            Customer customer = new Customer(GetNewCustomerId(), tbName.Text, tbAddr.Text, tbPhoneNumber.Text, tbEmail.Text);
+            Customer customer = new Customer();
             customer.Add(dgvCustomer, tbName, tbAddr, tbPhoneNumber, tbEmail);
-        }
 
-        private int GetNewCustomerId()
-        {
-            return dgvCustomer.Rows.Count + 1;
+            // Cập nhật danh sách khách hàng sau khi thêm
+            UpdateCustomerList();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -65,11 +61,17 @@ namespace FastFoodDemo.Form2_UC3
                 // Lấy ID của hàng được chọn
                 int customerId = Convert.ToInt32(dgvCustomer.SelectedRows[0].Cells[0].Value);
 
-                // Tạo một đối tượng Customer với ID của khách hàng cần xóa
-                Customer customer = new Customer(customerId, "", "", "", "");
+                // Xóa khách hàng từ danh sách
+                customers.RemoveAll(c => c.ID == customerId);
 
-                // Gọi phương thức Delete để xóa khách hàng
-                customer.Delete(dgvCustomer);
+                // Cập nhật tệp JSON
+                UpdateJsonFile();
+
+                // Xóa hàng khỏi DataGridView
+                dgvCustomer.Rows.Remove(dgvCustomer.SelectedRows[0]);
+
+                // Hiển thị thông báo xóa thành công
+                MessageBox.Show("Data deleted successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
@@ -89,16 +91,48 @@ namespace FastFoodDemo.Form2_UC3
                 string phoneNumber = dgvCustomer.SelectedRows[0].Cells[3].Value.ToString();
                 string email = dgvCustomer.SelectedRows[0].Cells[4].Value.ToString();
 
-                // Tạo một đối tượng Customer với dữ liệu của hàng được chọn
-                Customer customer = new Customer(id, name, address, phoneNumber, email);
+                // Cập nhật thông tin khách hàng trong danh sách
+                Customer customerToUpdate = customers.Find(c => c.ID == id);
+                if (customerToUpdate != null)
+                {
+                    customerToUpdate.name = name;
+                    customerToUpdate.address = address;
+                    customerToUpdate.phoneNumber = phoneNumber;
+                    customerToUpdate.email = email;
+                }
 
-                // Gọi phương thức Update để cập nhật thông tin của khách hàng
-                customer.Update(dgvCustomer);
+                // Cập nhật tệp JSON
+                UpdateJsonFile();
+
+                // Hiển thị thông báo cập nhật thành công
+                MessageBox.Show("Data updated successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 MessageBox.Show("Vui lòng chọn một hàng để cập nhật.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void UpdateJsonFile()
+        {
+            string customerFilePath = "Customer.json";
+            string jsonData = JsonConvert.SerializeObject(customers, Formatting.Indented);
+            File.WriteAllText(customerFilePath, jsonData);
+        }
+
+        private void UpdateCustomerList()
+        {
+            customers = dgvCustomer.Rows.Cast<DataGridViewRow>()
+                                .Where(row => !row.IsNewRow)
+                                .Select(row => new Customer
+                                {
+                                    ID = Convert.ToInt32(row.Cells[0].Value),
+                                    name = row.Cells[1].Value.ToString(),
+                                    address = row.Cells[2].Value.ToString(),
+                                    phoneNumber = row.Cells[3].Value.ToString(),
+                                    email = row.Cells[4].Value.ToString()
+                                })
+                                .ToList();
         }
     }
 }

@@ -9,7 +9,7 @@
   },
   {
     "Id": 2,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 10,
     "Price": 10.0,
     "Discount": 0.1,
@@ -17,7 +17,7 @@
   },
   {
     "Id": 3,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 5,
     "Price": 5.0,
     "Discount": 0.05,
@@ -25,7 +25,7 @@
   },
   {
     "Id": 4,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 10,
     "Price": 10.0,
     "Discount": 0.1,
@@ -33,7 +33,7 @@
   },
   {
     "Id": 5,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 5,
     "Price": 5.0,
     "Discount": 0.05,
@@ -49,7 +49,7 @@
   },
   {
     "Id": 7,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 50,
     "Price": 100.0,
     "Discount": 0.1,
@@ -57,7 +57,7 @@
   },
   {
     "Id": 8,
-    "Name": "Banana",
+    "Name": "Chuối",
     "Quantity": 100,
     "Price": 56.0,
     "Discount": 0.05,

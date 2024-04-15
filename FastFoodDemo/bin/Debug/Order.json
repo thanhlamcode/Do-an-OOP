@@ -1,0 +1,94 @@
+[
+  {
+    "orderID": "HD1",
+    "dateTime": "2024-04-10T00:00:00",
+    "staffID": 201,
+    "customerID": 1,
+    "orderDetail": [
+      {
+        "productName": "Cà chua",
+        "quantity": 2,
+        "unitPrice": 10.5
+      },
+      {
+        "productName": "Khoai tây",
+        "quantity": 3,
+        "unitPrice": 15.75
+      },
+      {
+        "productName": "Apple",
+        "quantity": 2,
+        "unitPrice": 5.0
+      },
+      {
+        "productName": "Chuối",
+        "quantity": 2,
+        "unitPrice": 10.0
+      }
+    ]
+  },
+  {
+    "orderID": "HD2",
+    "dateTime": "2024-04-11T00:00:00",
+    "staffID": 202,
+    "customerID": 2,
+    "orderDetail": [
+      {
+        "productName": "Xúc xích",
+        "quantity": 1,
+        "unitPrice": 20.0
+      },
+      {
+        "productName": "Gạo",
+        "quantity": 2,
+        "unitPrice": 35.0
+      },
+      {
+        "productName": "Mì",
+        "quantity": 1,
+        "unitPrice": 15.0
+      }
+    ]
+  },
+  {
+    "orderID": "HD3",
+    "dateTime": "2024-04-12T00:00:00",
+    "staffID": 203,
+    "customerID": 3,
+    "orderDetail": [
+      {
+        "productName": "Coca",
+        "quantity": 4,
+        "unitPrice": 5.25
+      },
+      {
+        "productName": "Muối",
+        "quantity": 2,
+        "unitPrice": 8.5
+      },
+      {
+        "productName": "Banana",
+        "quantity": 2,
+        "unitPrice": 10.0
+      }
+    ]
+  },
+  {
+    "orderID": "HD4",
+    "dateTime": "2024-04-16T00:55:46.2752607+07:00",
+    "staffID": 204,
+    "customerID": 4,
+    "orderDetail": [
+      {
+        "productName": "Chuối",
+        "quantity": 2,
+        "unitPrice": 10.0
+      },
+      {
+        "productName": "Lúa mì",
+        "quantity": 5,
+        "unitPrice": 50.0
+      }
+    ]
+  }
+]

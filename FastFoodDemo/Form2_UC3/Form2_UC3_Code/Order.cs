@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
 {
@@ -13,16 +14,14 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
         public DateTime dateTime { get; set; }
         public int staffID { get; set; }
         public int customerID { get; set; }
-        public List<ProductDetail> orderDetail { get; set; }
+        public List<OrderDetail> orderDetail { get; set; }
 
-        public class ProductDetail
+        public class OrderDetail
         {
             public string productName { get; set; }
             public int quantity { get; set; }
             public double unitPrice { get; set; }
         }
-
-        public bool isSaved = false;
 
         public Order()
         {
@@ -30,65 +29,70 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
             dateTime = DateTime.MinValue;
             staffID = 0;
             customerID = 0;
-            orderDetail = new List<ProductDetail>();
+            orderDetail = new List<OrderDetail>();
         }
 
-        public void Add(ComboBox cb1, TextBox txt, DateTimePicker dtp)
+        public void Add(ComboBox cb1, TextBox txt1, TextBox txt2, TextBox txt3, DateTimePicker dtp, DataGridView dgv)
         {
-            // Đọc tất cả các dòng trong tệp tin "Order.txt"
-            string[] lines = File.ReadAllLines("Order.txt");
-
-            // Tạo một biến để lưu trữ mã hóa đơn lớn nhất
-            int maxOrderId = 0;
-
-            // Duyệt qua từng dòng trong danh sách
-            foreach (string line in lines)
+            try
             {
-                // Phân tách dòng thành các phần tử
-                string[] parts = line.Split(',');
+                string orderFilePath = "Order.json";
+                List<Order> orders = new List<Order>();
 
-                // Lấy mã hóa đơn từ phần tử đầu tiên
-                if (parts.Length > 0)
+                if (File.Exists(orderFilePath))
                 {
-                    // Loại bỏ ký tự 'HD' để lấy số
-                    string orderIdString = parts[0].Replace("HD", "");
-                    int orderId;
+                    string jsonData = File.ReadAllText(orderFilePath);
+                    orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
+                }
 
-                    // Chuyển đổi mã hóa đơn thành số
-                    if (int.TryParse(orderIdString, out orderId))
+                int maxOrderId = 0;
+
+                foreach (var order in orders)
+                {
+                    int orderId = int.Parse(order.orderID.Substring(2)); // Bỏ qua ký tự 'HD' để lấy số
+                    if (orderId > maxOrderId)
                     {
-                        // So sánh với mã hóa đơn lớn nhất hiện có
-                        if (orderId > maxOrderId)
-                        {
-                            maxOrderId = orderId;
-                        }
+                        maxOrderId = orderId;
                     }
                 }
+
+                maxOrderId++;
+                string newOrderId = "HD" + maxOrderId;
+
+                dgv.Rows.Clear();
+                cb1.Items.Add(newOrderId);
+                cb1.SelectedIndex = cb1.Items.Count - 1;
+                txt1.Text = newOrderId;
+                txt2.Text = "";
+                txt3.Text = "";
+                dtp.Value = DateTime.Now;
             }
-
-            maxOrderId++;
-            string newOrderId = "HD" + maxOrderId;
-
-            // Thêm mã hóa đơn mới vào ComboBox
-            cb1.Items.Add(newOrderId);
-            cb1.SelectedIndex = cb1.Items.Count - 1;
-            txt.Text = newOrderId;
-            dtp.Value = DateTime.Now;
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi thêm hóa đơn mới: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         public void Update(ComboBox cb2, TextBox txt1, TextBox txt2, TextBox txt3, TextBox txt4, DateTimePicker dtp, DataGridView dgv)
         {
-            if (!isSaved)
+            // Your Update method code using JSON serialization
+            try
             {
+                string orderFilePath = "Order.json";
+
+                List<Order> orders = new List<Order>();
+                if (File.Exists(orderFilePath))
+                {
+                    string jsonData = File.ReadAllText(orderFilePath);
+                    orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
+                }
+
                 string maHD = txt1.Text;
                 string ngay = dtp.Value.ToString("yyyy/MM/dd");
                 string maNV = txt2.Text;
                 string maKH = txt3.Text;
 
-                // Tạo một danh sách để lưu trữ thông tin chi tiết sản phẩm
-                List<ProductDetail> productList = new List<ProductDetail>();
-
-                // Lặp qua từng hàng trong DataGridView để lấy thông tin sản phẩm
+                List<OrderDetail> productList = new List<OrderDetail>();
                 foreach (DataGridViewRow row in dgv.Rows)
                 {
                     if (row.Cells[0].Value != null && row.Cells[1].Value != null && row.Cells[2].Value != null)
@@ -97,8 +101,7 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                         int quantity = Convert.ToInt32(row.Cells[1].Value);
                         double unitPrice = Convert.ToDouble(row.Cells[2].Value);
 
-                        // Tạo một đối tượng ProductDetail và thêm vào danh sách
-                        productList.Add(new ProductDetail
+                        productList.Add(new OrderDetail
                         {
                             productName = productName,
                             quantity = quantity,
@@ -107,132 +110,74 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                     }
                 }
 
-                // Lưu danh sách chi tiết sản phẩm vào thuộc tính orderDetail
-                orderDetail = productList;
-
-                // Tạo chuỗi productDetails từ danh sách chi tiết sản phẩm
-                StringBuilder sb = new StringBuilder();
-                foreach (ProductDetail product in productList)
+                Order orderToUpdate = orders.Find(o => o.orderID == maHD);
+                if (orderToUpdate != null)
                 {
-                    sb.Append(product.productName + "-" + product.quantity + "-" + product.unitPrice + ",");
+                    orderToUpdate.dateTime = dtp.Value;
+                    orderToUpdate.staffID = Convert.ToInt32(txt2.Text);
+                    orderToUpdate.customerID = Convert.ToInt32(txt3.Text);
+                    orderToUpdate.orderDetail = productList;
                 }
-
-                // Xóa ký tự ';' cuối cùng nếu có
-                if (sb.Length > 0)
+                else
                 {
-                    sb.Length--;
-                }
-
-                string productDetails = sb.ToString();
-
-                // Kiểm tra xem là tạo hóa đơn mới hay cập nhật hóa đơn
-                bool orderExists = false;
-                string orderFilePath = "Order.txt";
-                List<string> lines = File.ReadAllLines(orderFilePath).ToList();
-                for (int i = 0; i < lines.Count; i++)
-                {
-                    if (lines[i].StartsWith(maHD + ","))
+                    orders.Add(new Order
                     {
-                        // Cập nhật thông tin của hóa đơn
-                        lines[i] = $"{maHD},{ngay},{maNV},{maKH},{productDetails}";
-                        orderExists = true;
-                        break;
-                    }
+                        orderID = maHD,
+                        dateTime = dtp.Value,
+                        staffID = Convert.ToInt32(txt2.Text),
+                        customerID = Convert.ToInt32(txt3.Text),
+                        orderDetail = productList
+                    });
                 }
 
-                // Nếu hóa đơn không tồn tại, thêm mới vào file
-                if (!orderExists)
-                {
-                    string newOrder = $"{maHD},{ngay},{maNV},{maKH},{productDetails}";
-                    lines.Add(newOrder);
-                }
+                string updatedJsonData = JsonConvert.SerializeObject(orders, Formatting.Indented);
+                File.WriteAllText(orderFilePath, updatedJsonData);
 
-                File.WriteAllLines(orderFilePath, lines);
-
-                // Kiểm tra xem đã chọn sản phẩm từ ComboBox cbSP chưa
-                if (string.IsNullOrWhiteSpace(cb2.Text))
-                {
-                    MessageBox.Show("Vui lòng chọn một sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
-                // Kiểm tra xem đã nhập số lượng từ TextBox txtSL chưa
-                if (string.IsNullOrWhiteSpace(txt4.Text))
-                {
-                    MessageBox.Show("Vui lòng nhập số lượng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                string tenSanPham = cb2.Text;
-                int soLuong = Convert.ToInt32(txt4.Text);
-                int soLuongTrongKho = LaySoLuongSanPhamTrongKho(tenSanPham);
-
-                // Cập nhật số lượng sản phẩm trong file txt inventory
-                string inventoryFilePath = "Inventory.txt";
-                List<string> rows = File.ReadAllLines(inventoryFilePath).ToList();
-                for (int i = 0; i < rows.Count; i++)
-                {
-                    string[] parts = rows[i].Split(',');
-                    if (parts.Length == 4 && parts[1].Trim() == tenSanPham)
-                    {
-                        rows[i] = $"{parts[0]},{tenSanPham},{soLuongTrongKho - soLuong},{parts[3]}";
-                        break;
-                    }
-                }
-                File.WriteAllLines(inventoryFilePath, rows);
-
-                // Đặt lại biến cờ là đã lưu hóa đơn
-                isSaved = true;
-                // Hiển thị thông báo lưu thành công
                 MessageBox.Show("Hóa đơn đã được lưu thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else
+            catch (Exception ex)
             {
-                // Nếu hóa đơn đã được lưu trước đó, hiển thị thông báo rằng hóa đơn đã được lưu
-                MessageBox.Show("Hóa đơn đã được lưu.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Lỗi khi cập nhật hóa đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        // Phương thức lấy số lượng sản phẩm trong kho từ file txt inventory
-        public int LaySoLuongSanPhamTrongKho(string tenSanPham)
-        {
-            string filePath = "Inventory.txt";
-            string[] lines = File.ReadAllLines(filePath);
-            foreach (string line in lines)
-            {
-                string[] parts = line.Split(',');
-                if (parts.Length == 4 && parts[1].Trim() == tenSanPham)
-                {
-                    return Convert.ToInt32(parts[2].Trim());
-                }
-            }
-            return 0; // Trả về 0 nếu không tìm thấy sản phẩm trong kho
         }
 
         public void Delete(ComboBox cb, TextBox txt1, TextBox txt2, TextBox txt3, TextBox txt4, DateTimePicker dtp, DataGridView dgv)
         {
-            string selectedMaHD = cb.SelectedItem.ToString();
-
-            string filePath = "Order.txt";
-            List<string> lines = File.ReadAllLines(filePath).ToList();
-            for (int i = 0; i < lines.Count; i++)
+            try
             {
-                if (lines[i].StartsWith(selectedMaHD + ","))
+                string orderFilePath = "Order.json";
+                string selectedMaHD = cb.SelectedItem.ToString();
+
+                List<Order> orders = new List<Order>();
+                if (File.Exists(orderFilePath))
                 {
-                    lines.RemoveAt(i);
-                    break;
+                    string jsonData = File.ReadAllText(orderFilePath);
+                    orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
+                }
+
+                Order orderToDelete = orders.Find(o => o.orderID == selectedMaHD);
+                if (orderToDelete != null)
+                {
+                    orders.Remove(orderToDelete);
+
+                    string updatedJsonData = JsonConvert.SerializeObject(orders, Formatting.Indented);
+                    File.WriteAllText(orderFilePath, updatedJsonData);
+
+                    // Xóa các giá trị trên giao diện
+                    txt1.Text = "";
+                    dtp.Value = DateTime.Now;
+                    txt2.Text = "";
+                    txt3.Text = "";
+                    dgv.Rows.Clear();
+                    txt4.Text = "";
+                    cb.SelectedIndex = -1;
+                    cb.Items.Remove(selectedMaHD);
                 }
             }
-            File.WriteAllLines(filePath, lines);
-
-            // Xóa các giá trị trên giao diện
-            txt1.Text = "";
-            dtp.Value = DateTime.Now;
-            txt2.Text = "";
-            txt3.Text = "";
-            dgv.Rows.Clear();
-            txt4.Text = "";
-            cb.SelectedIndex = -1;
-            cb.Items.Remove(selectedMaHD);
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa hóa đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
