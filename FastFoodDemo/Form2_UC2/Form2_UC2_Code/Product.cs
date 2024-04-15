@@ -64,6 +64,7 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
             }
         }
 
+        // xử lý các ngoại lệ và tiến hành thêm sản phẩm nếu thỏa điều kiện
         public void ValidateAndAddProduct(DataGridView dataGridView1, ComboBox comboBox_tenSP, TextBox textBox_soluongxuatkho, TextBox textBox_giaban, ComboBox comboBox_discount, TextBox textBox_Tonkho)
         {
             try
@@ -117,7 +118,7 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                 string selectedTenSP = comboBox_tenSP.SelectedItem.ToString();
 
                 // Cập nhật số lượng tồn kho trong file Inventory
-                UpdateInventoryFile(selectedTenSP, soLuongXuatKho);
+                UpdateInventoryFile(selectedTenSP, soLuongXuatKho, comboBox_tenSP);
                 UpdateTextboxTonKho(comboBox_tenSP, textBox_Tonkho);
 
                 // Tính toán doanh thu
@@ -221,9 +222,8 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
             }
         }
 
-
         // Cập nhập file
-        private void UpdateInventoryFile(string tenSP, int soLuongXuatKho)
+        private void UpdateInventoryFile(string tenSP, int soLuongXuatKho, ComboBox comboBox_tenSP)
         {
             try
             {
@@ -234,12 +234,15 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                 string jsonData = File.ReadAllText(inventoryFilePath);
                 List<Inventory> inventories = JsonConvert.DeserializeObject<List<Inventory>>(jsonData);
 
-                // Tìm đối tượng Inventory tương ứng với sản phẩm được chọn
-                Inventory selectedInventory = inventories.FirstOrDefault(inv => inv.Name == tenSP);
+                // Kiểm tra chỉ mục của sản phẩm được chọn
+                int selectedIndex = comboBox_tenSP.SelectedIndex;
 
-                // Kiểm tra xem đối tượng Inventory có tồn tại không
-                if (selectedInventory != null)
+                // Kiểm tra xem chỉ mục đã chọn có hợp lệ không
+                if (selectedIndex >= 0 && selectedIndex < inventories.Count)
                 {
+                    // Lấy đối tượng Inventory tương ứng với chỉ mục đã chọn
+                    Inventory selectedInventory = inventories[selectedIndex];
+
                     // Cập nhật số lượng tồn kho
                     selectedInventory.QuantityOnHand -= soLuongXuatKho;
 
@@ -255,7 +258,7 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                 }
                 else
                 {
-                    // Nếu không tìm thấy sản phẩm, hiển thị thông báo
+                    // Nếu chỉ mục không hợp lệ, hiển thị thông báo
                     MessageBox.Show("Không tìm thấy sản phẩm trong kho.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -264,6 +267,7 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                 MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
     }
 }

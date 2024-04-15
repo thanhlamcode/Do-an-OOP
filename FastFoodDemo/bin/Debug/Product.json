@@ -86,5 +86,93 @@
     "Price": 10.0,
     "Discount": 0.1,
     "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 12,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 13,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 14,
+    "Name": "Lúa mì",
+    "Quantity": 400,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 15,
+    "Name": "Lúa mì",
+    "Quantity": 150,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 16,
+    "Name": "Lúa mì",
+    "Quantity": 150,
+    "Price": 50.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 17,
+    "Name": "Lúa mì",
+    "Quantity": 500,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 18,
+    "Name": "Lúa mì",
+    "Quantity": 500,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 19,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 20,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 5.0,
+    "Discount": 0.05,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 21,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
+  },
+  {
+    "Id": 22,
+    "Name": "Lúa mì",
+    "Quantity": 200,
+    "Price": 10.0,
+    "Discount": 0.1,
+    "DateOut": "2024-04-15T00:00:00"
   }
 ]
