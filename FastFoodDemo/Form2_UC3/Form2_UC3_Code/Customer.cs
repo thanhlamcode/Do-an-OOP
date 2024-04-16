@@ -97,7 +97,15 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                     if (!row.IsNewRow)
                     {
                         int customerId = Convert.ToInt32(row.Cells[0].Value);
-                        Customer customerToUpdate = customers.FirstOrDefault(c => c.ID == customerId);
+                        Customer customerToUpdate = null;
+                        foreach (Customer customer in customers)
+                        {
+                            if (customer.ID == customerId)
+                            {
+                                customerToUpdate = customer;
+                                break;
+                            }
+                        }
                         if (customerToUpdate != null)
                         {
                             customerToUpdate.name = row.Cells[1].Value.ToString();
@@ -136,7 +144,14 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                 List<Customer> customers = JsonConvert.DeserializeObject<List<Customer>>(File.ReadAllText(jsonFilePath));
 
                 // Loại bỏ khách hàng cần xóa khỏi danh sách
-                customers.RemoveAll(c => customerIds.Contains(c.ID));
+                List<Customer> updatedCustomers = new List<Customer>();
+                foreach (Customer customer in customers)
+                {
+                    if (!customerIds.Contains(customer.ID))
+                    {
+                        updatedCustomers.Add(customer);
+                    }
+                }
 
                 // Ghi danh sách khách hàng đã cập nhật vào tệp JSON
                 string updatedJsonData = JsonConvert.SerializeObject(customers, Formatting.Indented);

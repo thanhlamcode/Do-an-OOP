@@ -61,17 +61,30 @@ namespace FastFoodDemo.Form2_UC3
                 // Lấy ID của hàng được chọn
                 int customerId = Convert.ToInt32(dgvCustomer.SelectedRows[0].Cells[0].Value);
 
-                // Xóa khách hàng từ danh sách
-                customers.RemoveAll(c => c.ID == customerId);
+                // Tìm và xóa khách hàng từ danh sách
+                Customer customerToRemove = null;
+                foreach (Customer customer in customers)
+                {
+                    if (customer.ID == customerId)
+                    {
+                        customerToRemove = customer;
+                        break;
+                    }
+                }
 
-                // Cập nhật tệp JSON
-                UpdateJsonFile();
+                if (customerToRemove != null)
+                {
+                    customers.Remove(customerToRemove);
 
-                // Xóa hàng khỏi DataGridView
-                dgvCustomer.Rows.Remove(dgvCustomer.SelectedRows[0]);
+                    // Cập nhật tệp JSON
+                    UpdateJsonFile();
 
-                // Hiển thị thông báo xóa thành công
-                MessageBox.Show("Data deleted successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Xóa hàng khỏi DataGridView
+                    dgvCustomer.Rows.Remove(dgvCustomer.SelectedRows[0]);
+
+                    // Hiển thị thông báo xóa thành công
+                    MessageBox.Show("Data deleted successfully.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             else
             {
@@ -92,7 +105,16 @@ namespace FastFoodDemo.Form2_UC3
                 string email = dgvCustomer.SelectedRows[0].Cells[4].Value.ToString();
 
                 // Cập nhật thông tin khách hàng trong danh sách
-                Customer customerToUpdate = customers.Find(c => c.ID == id);
+                Customer customerToUpdate = null;
+                foreach (Customer customer in customers)
+                {
+                    if (customer.ID == id)
+                    {
+                        customerToUpdate = customer;
+                        break;
+                    }
+                }
+
                 if (customerToUpdate != null)
                 {
                     customerToUpdate.name = name;
@@ -122,17 +144,30 @@ namespace FastFoodDemo.Form2_UC3
 
         private void UpdateCustomerList()
         {
-            customers = dgvCustomer.Rows.Cast<DataGridViewRow>()
-                                .Where(row => !row.IsNewRow)
-                                .Select(row => new Customer
-                                {
-                                    ID = Convert.ToInt32(row.Cells[0].Value),
-                                    name = row.Cells[1].Value.ToString(),
-                                    address = row.Cells[2].Value.ToString(),
-                                    phoneNumber = row.Cells[3].Value.ToString(),
-                                    email = row.Cells[4].Value.ToString()
-                                })
-                                .ToList();
+            customers = new List<Customer>();
+
+            foreach (DataGridViewRow row in dgvCustomer.Rows)
+            {
+                if (!row.IsNewRow)
+                {
+                    int id = Convert.ToInt32(row.Cells[0].Value);
+                    string name = row.Cells[1].Value.ToString();
+                    string address = row.Cells[2].Value.ToString();
+                    string phoneNumber = row.Cells[3].Value.ToString();
+                    string email = row.Cells[4].Value.ToString();
+
+                    Customer customer = new Customer
+                    {
+                        ID = id,
+                        name = name,
+                        address = address,
+                        phoneNumber = phoneNumber,
+                        email = email
+                    };
+
+                    customers.Add(customer);
+                }
+            }
         }
     }
 }

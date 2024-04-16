@@ -109,7 +109,16 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                     }
                 }
 
-                Order orderToUpdate = orders.Find(o => o.orderID == maHD);
+                Order orderToUpdate = null;
+                foreach (Order order in orders)
+                {
+                    if (order.orderID == maHD)
+                    {
+                        orderToUpdate = order;
+                        break;
+                    }
+                }
+
                 if (orderToUpdate != null)
                 {
                     orderToUpdate.dateTime = dtp.Value;
@@ -154,7 +163,16 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                     orders = JsonConvert.DeserializeObject<List<Order>>(jsonData);
                 }
 
-                Order orderToDelete = orders.Find(o => o.orderID == selectedMaHD);
+                Order orderToDelete = null;
+                foreach (Order order in orders)
+                {
+                    if (order.orderID == selectedMaHD)
+                    {
+                        orderToDelete = order;
+                        break;
+                    }
+                }
+
                 if (orderToDelete != null)
                 {
                     orders.Remove(orderToDelete);

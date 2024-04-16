@@ -78,7 +78,15 @@ namespace FastFoodDemo.Form2_UC3
                 }
 
                 // Tìm hóa đơn được chọn
-                Order selectedOrder = orders.Find(o => o.orderID == selectedMaHD);
+                Order selectedOrder = null;
+                foreach (Order ord in orders)
+                {
+                    if (ord.orderID == selectedMaHD)
+                    {
+                        selectedOrder = ord;
+                        break;
+                    }
+                }
 
                 if (selectedOrder != null)
                 {
@@ -193,7 +201,16 @@ namespace FastFoodDemo.Form2_UC3
                     }
 
                     // Tìm sản phẩm được chọn trong danh sách sản phẩm
-                    Product selectedProduct = products.Find(p => p.Name == selectedProductName);
+                    Product selectedProduct = null;
+                    foreach (Product prod in products)
+                    {
+                        if (prod.Name == selectedProductName)
+                        {
+                            selectedProduct = prod;
+                            break;
+                        }
+                    }
+
                     if (selectedProduct != null)
                     {
                         // Hiển thị giá của sản phẩm lên txtDG

@@ -75,19 +75,19 @@
   },
   {
     "orderID": "HD4",
-    "dateTime": "2024-04-16T00:55:46.2752607+07:00",
-    "staffID": 204,
+    "dateTime": "2024-04-16T10:56:42.2570052+07:00",
+    "staffID": 201,
     "customerID": 4,
     "orderDetail": [
       {
-        "productName": "Chuối",
+        "productName": "Lúa mì",
         "quantity": 2,
-        "unitPrice": 10.0
+        "unitPrice": 50.0
       },
       {
-        "productName": "Lúa mì",
+        "productName": "Hạt điều",
         "quantity": 5,
-        "unitPrice": 50.0
+        "unitPrice": 10.0
       }
     ]
   }
