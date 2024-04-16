@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\",
+  "WorkspaceRootPath": "D:\\code\\Do-an-OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|d:\\code\\vs - c#\\winform\\do-an-oop\\fastfooddemo\\form2_uc3\\customer_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\customer_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|d:\\code\\vs - c#\\winform\\do-an-oop\\fastfooddemo\\form2_uc3\\form2_uc3_code\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\form2_uc3_code\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|d:\\code\\do-an-oop\\fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|d:\\code\\vs - c#\\winform\\do-an-oop\\fastfooddemo\\form2_uc3\\form2_uc3_code\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc3\\customer_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\customer_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc3\\form2_uc3_code\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\form2_uc3_code\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc3\\form2_uc3_code\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\form2_uc3_code\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc3\\order_uc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc4\\form2_uc4_code\\return management form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc4\\form2_uc4_code\\return management form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc4\\form2_uc4_code\\return management form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc4\\form2_uc4_code\\supportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc4\\form2_uc4_code\\supportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc4\\form2_uc4_code\\supportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc\\form2_code\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc\\form2_code\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc\\form2_code\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2_uc\\form2_code\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2_uc\\form2_code\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2_uc\\form2_code\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\vs - C#\\Winform\\Do-an-OOP\\fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|D:\\code\\Do-an-OOP\\fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2BDDB774-9994-45CD-A910-8A07B4C7AFA6}|FastFoodDemo\\Qu\u1EA3n L\u00FD Si\u00EAu Th\u1ECB.csproj|solutionrelative:fastfooddemo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,39 +82,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Customer_UC.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Customer_UC.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAYwKoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T03:57:22.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
-              "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
-              "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T03:57:18.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T03:57:22.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
+              "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
+              "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Customer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:57:18.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Order_UC.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Order_UC.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Order_UC.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPgAAAAFAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAgwE8BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T14:18:49.608Z",
               "EditorCaption": ""
@@ -123,34 +121,32 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Form2_UC3_Code\\Order.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAA3wJcAAACFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:18:41.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T14:18:41.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Order_UC.cs [Design]",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC3\\Order_UC.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs [Design]",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC3\\Order_UC.cs [Design]",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC3\\Order_UC.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:18:45.369Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-15T14:18:45.369Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Return Management Form.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\Return Management Form.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,9 +156,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SupportService.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC4\\Form2_UC4_Code\\SupportService.cs",
               "ViewState": "AQIAAFkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -172,9 +168,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC\\Form2_Code\\Admin.cs",
               "ViewState": "AQIAACcAAAAAAAAAAIA6wEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,7 +180,7 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2.cs",
               "ToolTip": "C:\\Users\\PhamTrung\\Desktop\\Doan1\\Du-an-OOP\\FastFoodDemo\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,9 +190,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAADwvxoAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,9 +202,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IEmployee.cs",
-              "DocumentMoniker": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
+              "DocumentMoniker": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
               "RelativeDocumentMoniker": "FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
-              "ToolTip": "D:\\code\\vs - C#\\Winform\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
+              "ToolTip": "D:\\code\\Do-an-OOP\\FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
               "RelativeToolTip": "FastFoodDemo\\Form2_UC\\Form2_Code\\IEmployee.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA/wBoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

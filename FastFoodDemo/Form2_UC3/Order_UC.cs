@@ -152,10 +152,22 @@ namespace FastFoodDemo.Form2_UC3
                     // Nếu sản phẩm đã tồn tại, cộng thêm số lượng mới vào số lượng đã có
                     int existingQuantity = Convert.ToInt32(row.Cells[1].Value);
                     row.Cells[1].Value = existingQuantity + soLuong;
+                    row.Cells[3].Value = (existingQuantity + soLuong) * donGia;
                     productExists = true;
                     break;
                 }
             }
+
+            // Tính tổng tiền của các sản phẩm trong hóa đơn
+            double total = 0;
+            foreach (DataGridViewRow row in dgvOrder.Rows)
+            {
+                double totalPrice = Convert.ToDouble(row.Cells[3].Value);
+                total += totalPrice;
+            }
+
+            // Hiển thị tổng tiền lên TextBox txtTongTien
+            txtTongTien.Text = total.ToString();
 
             // Nếu sản phẩm chưa tồn tại, thêm mới vào DataGridView
             if (!productExists)
