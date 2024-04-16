@@ -40,5 +40,11 @@
     "Name": "Lúa mì",
     "QuantityOnHand": 200,
     "DateIn": "2024-04-16T15:51:57.9951073+07:00"
+  },
+  {
+    "Id": 8,
+    "Name": "Hạt điều",
+    "QuantityOnHand": 300,
+    "DateIn": "2024-04-16T16:19:01.1801482+07:00"
   }
 ]

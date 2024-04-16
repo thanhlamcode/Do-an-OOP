@@ -280,6 +280,8 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                     // Deserialize dữ liệu từ JSON thành danh sách các đối tượng Inventory
                     List<Inventory> inventories = JsonConvert.DeserializeObject<List<Inventory>>(jsonData);
 
+                    comboBox_tenSP.Items.Clear();
+
                     // Hiển thị tên sản phẩm trong ComboBox
                     foreach (Inventory inventory in inventories)
                     {
