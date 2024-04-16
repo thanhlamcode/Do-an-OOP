@@ -81,7 +81,13 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                                  $"Địa chỉ: {selectedSupplier.position}\n" +
                                  $"Email: {selectedSupplier.email}\n" +
                                  $"Số điện thoại: {selectedSupplier.phone}\n" +
-                                 $"Các sản phẩm cung cấp: {string.Join(", ", selectedSupplier.namesupply)}";
+                                 $"Các sản phẩm cung cấp:\n";
+
+                // Thêm tên của từng sản phẩm vào thông điệp
+                foreach (string productName in selectedSupplier.nameproduct)
+                {
+                    message += $"- {productName}\n";
+                }
 
                 MessageBox.Show(message, "Thông tin nhà cung cấp", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -90,5 +96,6 @@ namespace FastFoodDemo.Form2_UC2.Form2_UC2_Code
                 MessageBox.Show("Chỉ mục không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }
