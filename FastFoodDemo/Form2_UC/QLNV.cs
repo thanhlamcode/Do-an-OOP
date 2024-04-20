@@ -52,20 +52,22 @@ namespace FastFoodDemo.Form2_UC
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            switch (dataGridView1.Columns[e.ColumnIndex].Name)
-            {
-                case "Ngayvaolam":
-                    _rectangle = dataGridView1.GetCellDisplayRectangle(e.ColumnIndex, e.RowIndex, true);
-                    dtp.Size = new Size(_rectangle.Width, _rectangle.Height);
-                    dtp.Location = new Point(_rectangle.X, _rectangle.Y);
-                    dtp.Visible = true;
-                    break;
-                case "QuyenTruyCap":
-                    _rectangle = dataGridView1.GetCellDisplayRectangle(e.ColumnIndex, e.RowIndex, true);
-                    cbb.Size = new Size(_rectangle.Width, _rectangle.Height);
-                    cbb.Location = new Point(_rectangle.X, _rectangle.Y);
-                    cbb.Visible = true;
-                    break;
+            if(e.ColumnIndex >=0 && e.ColumnIndex < dataGridView1.Columns.Count){
+                switch (dataGridView1.Columns[e.ColumnIndex].Name)
+                {
+                    case "Ngayvaolam":
+                        _rectangle = dataGridView1.GetCellDisplayRectangle(e.ColumnIndex, e.RowIndex, true);
+                        dtp.Size = new Size(_rectangle.Width, _rectangle.Height);
+                        dtp.Location = new Point(_rectangle.X, _rectangle.Y);
+                        dtp.Visible = true;
+                        break;
+                    case "QuyenTruyCap":
+                        _rectangle = dataGridView1.GetCellDisplayRectangle(e.ColumnIndex, e.RowIndex, true);
+                        cbb.Size = new Size(_rectangle.Width, _rectangle.Height);
+                        cbb.Location = new Point(_rectangle.X, _rectangle.Y);
+                        cbb.Visible = true;
+                        break;
+                }
             }
         }
         private void QLNV_Load(object sender, EventArgs e)

@@ -48,14 +48,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Rightpanel = new System.Windows.Forms.Panel();
-            this.promotion_Management1 = new FastFoodDemo.Form2_UC4.Form2_UC4_Code.Promotion_Management();
-            this.return_Management_Form1 = new FastFoodDemo.Form2_UC4.Form2_UC4_Code.Return_Management_Form();
-            this.supportService1 = new FastFoodDemo.Form2_UC4.Form2_UC4_Code.SupportService();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.Rightpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,8 +72,9 @@
             this.panel1.Controls.Add(this.DoiMKbtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(273, 1063);
+            this.panel1.Size = new System.Drawing.Size(410, 1661);
             this.panel1.TabIndex = 0;
             // 
             // btnQuanLyKhuyenMai
@@ -88,9 +85,10 @@
             this.btnQuanLyKhuyenMai.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyKhuyenMai.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyKhuyenMai.Image")));
             this.btnQuanLyKhuyenMai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyKhuyenMai.Location = new System.Drawing.Point(22, 924);
+            this.btnQuanLyKhuyenMai.Location = new System.Drawing.Point(33, 1444);
+            this.btnQuanLyKhuyenMai.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQuanLyKhuyenMai.Name = "btnQuanLyKhuyenMai";
-            this.btnQuanLyKhuyenMai.Size = new System.Drawing.Size(251, 93);
+            this.btnQuanLyKhuyenMai.Size = new System.Drawing.Size(376, 145);
             this.btnQuanLyKhuyenMai.TabIndex = 11;
             this.btnQuanLyKhuyenMai.Text = "QUẢN LÝ KHUYẾN MÃI";
             this.btnQuanLyKhuyenMai.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -106,9 +104,10 @@
             this.btnQuanLyDichVuHoTro.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyDichVuHoTro.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyDichVuHoTro.Image")));
             this.btnQuanLyDichVuHoTro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyDichVuHoTro.Location = new System.Drawing.Point(22, 825);
+            this.btnQuanLyDichVuHoTro.Location = new System.Drawing.Point(33, 1289);
+            this.btnQuanLyDichVuHoTro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQuanLyDichVuHoTro.Name = "btnQuanLyDichVuHoTro";
-            this.btnQuanLyDichVuHoTro.Size = new System.Drawing.Size(251, 93);
+            this.btnQuanLyDichVuHoTro.Size = new System.Drawing.Size(376, 145);
             this.btnQuanLyDichVuHoTro.TabIndex = 11;
             this.btnQuanLyDichVuHoTro.Text = "QUẢN LÝ DỊCH VỤ HỖ TRỢ";
             this.btnQuanLyDichVuHoTro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -124,9 +123,10 @@
             this.btnQuanLyDoiTra.ForeColor = System.Drawing.Color.White;
             this.btnQuanLyDoiTra.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyDoiTra.Image")));
             this.btnQuanLyDoiTra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuanLyDoiTra.Location = new System.Drawing.Point(22, 726);
+            this.btnQuanLyDoiTra.Location = new System.Drawing.Point(33, 1134);
+            this.btnQuanLyDoiTra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQuanLyDoiTra.Name = "btnQuanLyDoiTra";
-            this.btnQuanLyDoiTra.Size = new System.Drawing.Size(251, 93);
+            this.btnQuanLyDoiTra.Size = new System.Drawing.Size(376, 145);
             this.btnQuanLyDoiTra.TabIndex = 11;
             this.btnQuanLyDoiTra.Text = "QUẢN LÝ ĐỔI TRẢ";
             this.btnQuanLyDoiTra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -142,9 +142,10 @@
             this.btnQLDH.ForeColor = System.Drawing.Color.White;
             this.btnQLDH.Image = ((System.Drawing.Image)(resources.GetObject("btnQLDH.Image")));
             this.btnQLDH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLDH.Location = new System.Drawing.Point(22, 614);
+            this.btnQLDH.Location = new System.Drawing.Point(33, 959);
+            this.btnQLDH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQLDH.Name = "btnQLDH";
-            this.btnQLDH.Size = new System.Drawing.Size(251, 93);
+            this.btnQLDH.Size = new System.Drawing.Size(376, 145);
             this.btnQLDH.TabIndex = 11;
             this.btnQLDH.Text = "QUẢN LÝ ĐƠN HÀNG";
             this.btnQLDH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -160,9 +161,10 @@
             this.btnQLKH.ForeColor = System.Drawing.Color.White;
             this.btnQLKH.Image = ((System.Drawing.Image)(resources.GetObject("btnQLKH.Image")));
             this.btnQLKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLKH.Location = new System.Drawing.Point(12, 522);
+            this.btnQLKH.Location = new System.Drawing.Point(18, 816);
+            this.btnQLKH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnQLKH.Name = "btnQLKH";
-            this.btnQLKH.Size = new System.Drawing.Size(261, 86);
+            this.btnQLKH.Size = new System.Drawing.Size(392, 134);
             this.btnQLKH.TabIndex = 12;
             this.btnQLKH.Text = "QUẢN LÝ KHÁCH HÀNG";
             this.btnQLKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -178,9 +180,10 @@
             this.XuatHangbtn.ForeColor = System.Drawing.Color.White;
             this.XuatHangbtn.Image = ((System.Drawing.Image)(resources.GetObject("XuatHangbtn.Image")));
             this.XuatHangbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.XuatHangbtn.Location = new System.Drawing.Point(12, 314);
+            this.XuatHangbtn.Location = new System.Drawing.Point(18, 491);
+            this.XuatHangbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.XuatHangbtn.Name = "XuatHangbtn";
-            this.XuatHangbtn.Size = new System.Drawing.Size(261, 71);
+            this.XuatHangbtn.Size = new System.Drawing.Size(392, 111);
             this.XuatHangbtn.TabIndex = 10;
             this.XuatHangbtn.Text = "   XUẤT HÀNG";
             this.XuatHangbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -196,9 +199,10 @@
             this.NhapHangbtn.ForeColor = System.Drawing.Color.White;
             this.NhapHangbtn.Image = ((System.Drawing.Image)(resources.GetObject("NhapHangbtn.Image")));
             this.NhapHangbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.NhapHangbtn.Location = new System.Drawing.Point(22, 391);
+            this.NhapHangbtn.Location = new System.Drawing.Point(33, 611);
+            this.NhapHangbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.NhapHangbtn.Name = "NhapHangbtn";
-            this.NhapHangbtn.Size = new System.Drawing.Size(251, 57);
+            this.NhapHangbtn.Size = new System.Drawing.Size(376, 89);
             this.NhapHangbtn.TabIndex = 9;
             this.NhapHangbtn.Text = "    NHẬP HÀNG";
             this.NhapHangbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -209,9 +213,10 @@
             // SidePanel
             // 
             this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(55)))), ((int)(((byte)(8)))));
-            this.SidePanel.Location = new System.Drawing.Point(0, 117);
+            this.SidePanel.Location = new System.Drawing.Point(0, 183);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(10, 74);
+            this.SidePanel.Size = new System.Drawing.Size(15, 116);
             this.SidePanel.TabIndex = 3;
             // 
             // QLNVbtn
@@ -222,9 +227,10 @@
             this.QLNVbtn.ForeColor = System.Drawing.Color.White;
             this.QLNVbtn.Image = ((System.Drawing.Image)(resources.GetObject("QLNVbtn.Image")));
             this.QLNVbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.QLNVbtn.Location = new System.Drawing.Point(22, 454);
+            this.QLNVbtn.Location = new System.Drawing.Point(33, 709);
+            this.QLNVbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.QLNVbtn.Name = "QLNVbtn";
-            this.QLNVbtn.Size = new System.Drawing.Size(251, 62);
+            this.QLNVbtn.Size = new System.Drawing.Size(376, 97);
             this.QLNVbtn.TabIndex = 8;
             this.QLNVbtn.Text = "    QUẢN LÝ\r\n    NHÂN VIÊN";
             this.QLNVbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -240,9 +246,10 @@
             this.Problembtn.ForeColor = System.Drawing.Color.White;
             this.Problembtn.Image = ((System.Drawing.Image)(resources.GetObject("Problembtn.Image")));
             this.Problembtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Problembtn.Location = new System.Drawing.Point(22, 160);
+            this.Problembtn.Location = new System.Drawing.Point(33, 250);
+            this.Problembtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Problembtn.Name = "Problembtn";
-            this.Problembtn.Size = new System.Drawing.Size(251, 60);
+            this.Problembtn.Size = new System.Drawing.Size(376, 94);
             this.Problembtn.TabIndex = 7;
             this.Problembtn.Text = "      BÁO CÁO\r\n      VẤN ĐỀ";
             this.Problembtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -258,9 +265,10 @@
             this.Doanhthubtn.ForeColor = System.Drawing.Color.White;
             this.Doanhthubtn.Image = ((System.Drawing.Image)(resources.GetObject("Doanhthubtn.Image")));
             this.Doanhthubtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Doanhthubtn.Location = new System.Drawing.Point(12, 235);
+            this.Doanhthubtn.Location = new System.Drawing.Point(18, 367);
+            this.Doanhthubtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Doanhthubtn.Name = "Doanhthubtn";
-            this.Doanhthubtn.Size = new System.Drawing.Size(261, 73);
+            this.Doanhthubtn.Size = new System.Drawing.Size(392, 114);
             this.Doanhthubtn.TabIndex = 6;
             this.Doanhthubtn.Text = "  BÁO CÁO\r\n   DOANH THU";
             this.Doanhthubtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -276,9 +284,10 @@
             this.LoginHisbtn.ForeColor = System.Drawing.Color.White;
             this.LoginHisbtn.Image = ((System.Drawing.Image)(resources.GetObject("LoginHisbtn.Image")));
             this.LoginHisbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LoginHisbtn.Location = new System.Drawing.Point(22, 80);
+            this.LoginHisbtn.Location = new System.Drawing.Point(33, 125);
+            this.LoginHisbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LoginHisbtn.Name = "LoginHisbtn";
-            this.LoginHisbtn.Size = new System.Drawing.Size(251, 74);
+            this.LoginHisbtn.Size = new System.Drawing.Size(376, 116);
             this.LoginHisbtn.TabIndex = 5;
             this.LoginHisbtn.Text = "LỊCH SỬ\r\n    ĐĂNG NHẬP";
             this.LoginHisbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -294,9 +303,10 @@
             this.DoiMKbtn.ForeColor = System.Drawing.Color.White;
             this.DoiMKbtn.Image = ((System.Drawing.Image)(resources.GetObject("DoiMKbtn.Image")));
             this.DoiMKbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.DoiMKbtn.Location = new System.Drawing.Point(12, 0);
+            this.DoiMKbtn.Location = new System.Drawing.Point(18, 0);
+            this.DoiMKbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.DoiMKbtn.Name = "DoiMKbtn";
-            this.DoiMKbtn.Size = new System.Drawing.Size(261, 74);
+            this.DoiMKbtn.Size = new System.Drawing.Size(392, 116);
             this.DoiMKbtn.TabIndex = 4;
             this.DoiMKbtn.Text = "ĐỔI\r\n   MẬT KHẨU";
             this.DoiMKbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -308,9 +318,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(273, 0);
+            this.panel2.Location = new System.Drawing.Point(410, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1307, 17);
+            this.panel2.Size = new System.Drawing.Size(1960, 27);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -318,9 +329,10 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(328, 12);
+            this.panel3.Location = new System.Drawing.Point(492, 19);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(138, 172);
+            this.panel3.Size = new System.Drawing.Size(207, 269);
             this.panel3.TabIndex = 2;
             // 
             // label1
@@ -328,89 +340,68 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(27, 105);
+            this.label1.Location = new System.Drawing.Point(40, 164);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 38);
+            this.label1.Size = new System.Drawing.Size(143, 68);
             this.label1.TabIndex = 4;
             this.label1.Text = "  Online\r\nShopping";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 17);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(78, 81);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // Rightpanel
             // 
-            this.Rightpanel.Controls.Add(this.promotion_Management1);
-            this.Rightpanel.Controls.Add(this.return_Management_Form1);
-            this.Rightpanel.Controls.Add(this.supportService1);
             this.Rightpanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Rightpanel.Location = new System.Drawing.Point(273, 468);
+            this.Rightpanel.Location = new System.Drawing.Point(410, 338);
+            this.Rightpanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Rightpanel.Name = "Rightpanel";
-            this.Rightpanel.Size = new System.Drawing.Size(1307, 595);
+            this.Rightpanel.Size = new System.Drawing.Size(1960, 1323);
             this.Rightpanel.TabIndex = 3;
-            // 
-            // promotion_Management1
-            // 
-            this.promotion_Management1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.promotion_Management1.Location = new System.Drawing.Point(0, 0);
-            this.promotion_Management1.Name = "promotion_Management1";
-            this.promotion_Management1.Size = new System.Drawing.Size(1375, 842);
-            this.promotion_Management1.TabIndex = 2;
-            // 
-            // return_Management_Form1
-            // 
-            this.return_Management_Form1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.return_Management_Form1.Location = new System.Drawing.Point(0, 0);
-            this.return_Management_Form1.Name = "return_Management_Form1";
-            this.return_Management_Form1.Size = new System.Drawing.Size(1375, 842);
-            this.return_Management_Form1.TabIndex = 1;
-            // 
-            // supportService1
-            // 
-            this.supportService1.Location = new System.Drawing.Point(0, 0);
-            this.supportService1.Name = "supportService1";
-            this.supportService1.Size = new System.Drawing.Size(1160, 582);
-            this.supportService1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(55)))), ((int)(((byte)(8)))));
-            this.label2.Location = new System.Drawing.Point(1342, 23);
+            this.label2.Location = new System.Drawing.Point(2013, 36);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 25);
+            this.label2.Size = new System.Drawing.Size(38, 41);
             this.label2.TabIndex = 4;
             this.label2.Text = "X";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1580, 1063);
+            this.ClientSize = new System.Drawing.Size(2370, 1661);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Rightpanel);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Form2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.Rightpanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -438,8 +429,5 @@
         private System.Windows.Forms.Button btnQuanLyKhuyenMai;
         private System.Windows.Forms.Button btnQuanLyDichVuHoTro;
         private System.Windows.Forms.Button btnQuanLyDoiTra;
-        private Form2_UC4.Form2_UC4_Code.Promotion_Management promotion_Management1;
-        private Form2_UC4.Form2_UC4_Code.Return_Management_Form return_Management_Form1;
-        private Form2_UC4.Form2_UC4_Code.SupportService supportService1;
     }
 }

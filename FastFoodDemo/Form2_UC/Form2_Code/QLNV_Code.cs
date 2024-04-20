@@ -58,6 +58,10 @@ namespace FastFoodDemo.Form2_UC.Form2_Code
                         {
                             rowData.Append("2" + ',');
                         }
+                        else if (cell.Value.ToString() == "Admin")
+                        {
+                            rowData.Append("0" + ',');
+                        }
                         else
                         {
                             rowData.Append(cell.Value?.ToString() + ",");

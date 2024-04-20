@@ -125,8 +125,8 @@ namespace FastFoodDemo.Form2_UC
                                         .SetBold();
                                     document.Add(title);
 
-                                    Paragraph sub_title = new Paragraph($"Từ : {name} - {id} - Chức vụ: {job}\n" +
-                                        $"Tới Quản Lý")
+                                    Paragraph sub_title = new Paragraph($"From : {name} - {id} - Job: {job}\n" +
+                                        $"To Manager")
                                         .SetTextAlignment(TextAlignment.CENTER)
                                         .SetFontSize(14);
                                     document.Add(sub_title);
@@ -139,7 +139,7 @@ namespace FastFoodDemo.Form2_UC
                                     document.Close();
                                 }
                             }
-                            MessageBox.Show("Đăng nhập thành công.", "Thông báo", MessageBoxButtons.OK
+                            MessageBox.Show("Xuất File thành công!", "Thông báo", MessageBoxButtons.OK
                             , MessageBoxIcon.Information);
                         }
                     }

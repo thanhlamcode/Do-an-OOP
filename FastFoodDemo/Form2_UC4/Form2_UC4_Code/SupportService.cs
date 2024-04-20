@@ -14,8 +14,6 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
 {
     public interface ISupportRequest
     {
-        void ProcessRequest(List<SupportService.SupportRequest> sourceList);
-
         void Save();
         void Delete();
     }
@@ -70,38 +68,6 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
             dataGridViewRequests.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
         }
-        public void ProcessRequest(List<SupportRequest> sourceList)
-        {
-            // Lặp qua từng hàng được chọn trong DataGridView
-            foreach (DataGridViewRow selectedRow in dataGridViewRequests.SelectedRows)
-            {
-                // Lấy chỉ số của hàng đang được chọn
-                int rowIndex = selectedRow.Index;
-
-                // Kiểm tra xem chỉ số hàng có hợp lệ không
-                if (rowIndex >= 0 && rowIndex < sourceList.Count)
-                {
-                    SupportRequest selectedRequest = sourceList[rowIndex];
-
-                    // Xử lý hóa đơn chỉ khi trạng thái là "Pending" hoặc "InProgress"
-                    if (selectedRequest.Status == RequestStatus.ChuaTiepNhanXuLy)
-                    {
-                        selectedRequest.Status = RequestStatus.DaTiepNhanXuLy;
-                    }
-                    else if (selectedRequest.Status == RequestStatus.DaTiepNhanXuLy)
-                    {
-                        selectedRequest.Status = RequestStatus.DaXuLy;
-                    }
-                    else if (selectedRequest.Status == RequestStatus.DaXuLy)
-                    {
-                        selectedRequest.Status = RequestStatus.ChuaTiepNhanXuLy;
-                    }
-                }
-            }
-
-            // Cập nhật lại DataGridView sau khi thực hiện xử lý
-            UpdateDataGridView();
-        }
 
         public void Save()
         {
@@ -112,23 +78,32 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
 
             // Ghi chuỗi JSON vào tệp tin
             File.WriteAllText(filePath, jsonData);
+            MessageBox.Show("Đã lưu", "Thông báo", MessageBoxButtons.OK);
         }
 
         public void SupportServiceLoad()
         {
             string filePath = "support_requests.json";
 
-            if (File.Exists(filePath))
+            // Kiểm tra nếu tệp tin không tồn tại
+            if (!File.Exists(filePath))
             {
-                // Đọc nội dung của tệp tin
-                string jsonData = File.ReadAllText(filePath);
-
-                // Sử dụng Newtonsoft.Json để deserialize chuỗi JSON thành danh sách các đối tượng
-                list = JsonConvert.DeserializeObject<List<SupportRequest>>(jsonData);
-
-                // Cập nhật DataGridView sau khi tải dữ liệu
-                UpdateDataGridView();
+                // Tạo tệp mới
+                using (StreamWriter sw = File.CreateText(filePath))
+                {
+                    // Ghi nội dung mặc định vào tệp tin mới tạo (có thể là một mảng JSON rỗng, hoặc một đối tượng JSON mẫu)
+                    sw.WriteLine("[]");
+                }
             }
+
+            // Đọc nội dung của tệp tin
+            string jsonData = File.ReadAllText(filePath);
+
+            // Sử dụng Newtonsoft.Json để deserialize chuỗi JSON thành danh sách các đối tượng
+            list = JsonConvert.DeserializeObject<List<SupportRequest>>(jsonData);
+
+            // Cập nhật DataGridView sau khi tải dữ liệu
+            UpdateDataGridView();
         }
 
         public void Delete()
@@ -143,8 +118,12 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
                 }
             }
 
-            // Cập nhật lại DataGridView sau khi xóa
+            // Clear the DataGridView before updating it
+            dataGridViewRequests.DataSource = null;
+
+            // Update DataGridView after deletion
             UpdateDataGridView();
+            MessageBox.Show("Đã xóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -155,6 +134,11 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
         private void btnDelete_Click(object sender, EventArgs e)
         {
             Delete();
+        }
+        private void btnXuLy_Click(object sender, EventArgs e)
+        {
+            SupportRequestManager.ProcessRequests(dataGridViewRequests);
+            UpdateDataGridView();
         }
 
         private void dataGridViewRequests_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -210,16 +194,36 @@ namespace FastFoodDemo.Form2_UC4.Form2_UC4_Code
             }
             dataGridViewRequests.DataSource = supportRequests2;
         }
-
-        private void btnXuLy_Click(object sender, EventArgs e)
+        public sealed class SupportRequestManager
         {
-            List<SupportRequest> sourceList = dataGridViewRequests.DataSource as List<SupportRequest>;
-            if (sourceList != null)
+            public static void ProcessRequests(DataGridView dataGridView)
             {
-                ProcessRequest(sourceList);
+                // Lặp qua từng hàng được chọn trong DataGridView
+                foreach (DataGridViewRow selectedRow in dataGridView.SelectedRows)
+                {
+                    // Lấy yêu cầu từ hàng được chọn
+                    SupportService.SupportRequest request = selectedRow.DataBoundItem as SupportService.SupportRequest;
+
+                    if (request != null)
+                    {
+                        // Xử lý yêu cầu tùy thuộc vào trạng thái hiện tại của nó
+                        switch (request.Status)
+                        {
+                            case RequestStatus.ChuaTiepNhanXuLy:
+                                request.Status = RequestStatus.DaTiepNhanXuLy;
+                                break;
+                            case RequestStatus.DaTiepNhanXuLy:
+                                request.Status = RequestStatus.DaXuLy;
+                                break;
+                            case RequestStatus.DaXuLy:
+                                request.Status = RequestStatus.ChuaTiepNhanXuLy;
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
             }
         }
-
-
     }
 }

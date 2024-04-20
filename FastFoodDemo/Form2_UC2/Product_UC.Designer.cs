@@ -38,7 +38,7 @@
             this.textBox_soluongxuatkho = new System.Windows.Forms.TextBox();
             this.textBox_giaban = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DateOut = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -146,7 +146,7 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Name,
+            this._Name,
             this.Number,
             this.DateOut,
             this.Price,
@@ -163,11 +163,11 @@
             // 
             // Name
             // 
-            this.Name.HeaderText = "Name";
-            this.Name.MinimumWidth = 10;
-            this.Name.Name = "Name";
-            this.Name.ReadOnly = true;
-            this.Name.Width = 200;
+            this._Name.HeaderText = "Name";
+            this._Name.MinimumWidth = 10;
+            this._Name.Name = "Name";
+            this._Name.ReadOnly = true;
+            this._Name.Width = 200;
             // 
             // Number
             // 
@@ -298,13 +298,13 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox_discount;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ProductName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _ProductName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Number;
         private System.Windows.Forms.DataGridViewTextBoxColumn DateOut;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Discount;
         private System.Windows.Forms.DataGridViewTextBoxColumn Revenue;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _Name;
         private System.Windows.Forms.Button button_LOAD;
     }
 }

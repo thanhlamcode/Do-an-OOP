@@ -119,6 +119,8 @@ namespace FastFoodDemo.Form2_UC3.Form2_UC3_Code
                 // Ghi danh sách khách hàng cập nhật vào tệp JSON
                 string updatedJsonData = JsonConvert.SerializeObject(customers, Formatting.Indented);
                 File.WriteAllText(filePath, updatedJsonData);
+
+                MessageBox.Show("Đã cập nhật thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (FileNotFoundException ex)
             {

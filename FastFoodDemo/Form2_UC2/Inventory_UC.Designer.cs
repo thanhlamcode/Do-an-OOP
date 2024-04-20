@@ -43,7 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductName= new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._ProductName= new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DateIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
@@ -195,7 +195,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
-            this.ProductName,
+            this._ProductName,
             this.Quantity,
             this.DateIn});
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -224,10 +224,10 @@
             // 
             // Name
             // 
-            this.ProductName.HeaderText = "Name";
-            this.ProductName.MinimumWidth = 10;
-            this.ProductName.Name = "Name";
-            this.ProductName.Width = 200;
+            this._ProductName.HeaderText = "Name";
+            this._ProductName.MinimumWidth = 10;
+            this._ProductName.Name = "Name";
+            this._ProductName.Width = 200;
             // 
             // Quantity
             // 
@@ -277,7 +277,7 @@
         private System.Windows.Forms.Button button_DELETE;
         private System.Windows.Forms.Button button_DESC;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ProductName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _ProductName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn DateIn;
     }

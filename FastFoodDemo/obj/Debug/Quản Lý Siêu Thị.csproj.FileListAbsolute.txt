@@ -969,3 +969,8 @@ D:\code\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý Siêu Thị.csproj.CoreCompi
 D:\code\Do-an-OOP\FastFoodDemo\obj\Debug\Quản Lý .8AE34164.Up2Date
 D:\code\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.exe
 D:\code\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.pdb
+C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\obj\Debug\FastFoodDemo.Form2_UC.BaoCaoVanDe.resources
+C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-adapter.dll
+C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\dtlam\OneDrive\Documents\A Code\OOP\Do-an-OOP\FastFoodDemo\bin\Debug\itext.bouncy-castle-adapter.xml
