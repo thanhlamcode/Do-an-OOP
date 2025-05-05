@@ -1,14 +1,14 @@
-📚 *README: Chương Trình Quản Lý Bán Hàng Siêu Thị*
+# 📚 Chương Trình Quản Lý Bán Hàng Siêu Thị
 
 ---
 
-✨ **Giới Thiệu**
+## ✨ **Giới Thiệu**
 
 Dự án này là một Chương Trình Quản Lý Bán Hàng Siêu Thị được phát triển bằng ngôn ngữ lập trình C# sử dụng giao diện Winform. Trong bối cảnh thị trường bán lẻ và thương mại điện tử ngày càng cạnh tranh, việc áp dụng CNTT để tối ưu hóa quy trình quản lý là rất cần thiết. Chương trình này ra đời nhằm giải quyết các thách thức trong việc quản lý hàng tồn kho, đơn hàng, khách hàng, nhân viên và các nghiệp vụ bán hàng khác tại siêu thị, từ đó nâng cao hiệu quả vận hành và trải nghiệm khách hàng.
 
 ---
 
-🎯 **Mục Tiêu**
+## 🎯 **Mục Tiêu**
 
 * Áp dụng kiến thức về Lập trình Hướng Đối Tượng (OOP) vào thực tế.
 * Xây dựng hệ thống quản lý bán hàng cơ bản.
@@ -16,7 +16,7 @@ Dự án này là một Chương Trình Quản Lý Bán Hàng Siêu Thị đư�
 
 ---
 
-🔑 **Các Nguyên Lý Lập Trình Hướng Đối Tượng (OOP) Áp Dụng**
+## 🔑 **Các Nguyên Lý Lập Trình Hướng Đối Tượng (OOP) Áp Dụng**
 
 * **Tính Đóng Gói (Encapsulation)** 📦: Dữ liệu và phương thức được gói gọn trong các lớp như `Supplier`, `Customer`, `Product`... Việc truy cập được kiểm soát qua getter/setter.
 * **Tính Kế Thừa (Inheritance)** 🧬: Các lớp con kế thừa từ lớp cha, ví dụ: `MayAsus` kế thừa từ `MayViTinh`, `Admin`, `ThuNgan`, `BaoVe` kế thừa từ `IEmployee`.
@@ -25,7 +25,7 @@ Dự án này là một Chương Trình Quản Lý Bán Hàng Siêu Thị đư�
 
 ---
 
-🛠️ **Công Nghệ Sử Dụng**
+## 🛠️ **Công Nghệ Sử Dụng**
 
 * Ngôn ngữ: C#
 * Framework: .NET Framework (Winform)
@@ -33,7 +33,7 @@ Dự án này là một Chương Trình Quản Lý Bán Hàng Siêu Thị đư�
 
 ---
 
-🏗️ **Cấu Trúc Dự Án và Thiết Kế Lớp**
+## 🏗️ **Cấu Trúc Dự Án và Thiết Kế Lớp**
 
 Dự án được chia thành các Form và User Control theo từng chức năng. Các lớp chính bao gồm:
 
@@ -51,7 +51,7 @@ Dự án được chia thành các Form và User Control theo từng chức năn
 
 ---
 
-🚀 **Các Chức Năng Chính**
+## 🚀 **Các Chức Năng Chính**
 
 **🛡️ Bảo Vệ**
 
@@ -72,7 +72,7 @@ Dự án được chia thành các Form và User Control theo từng chức năn
 
 ---
 
-📦 **Hướng Dẫn Cài Đặt và Chạy Ứng Dụng**
+## 📦 **Hướng Dẫn Cài Đặt và Chạy Ứng Dụng**
 
 1. **Clone Repository:**
 
@@ -86,7 +86,7 @@ git clone https://github.com/thanhlamcode/Do-an-OOP.git
 
 ---
 
-🚧 **Tồn Tại và Hướng Phát Triển**
+## 🚧 **Tồn Tại và Hướng Phát Triển**
 
 ❌ **Tồn Tại**
 
