@@ -1,4 +1,4 @@
-📚 **README: Chương Trình Quản Lý Bán Hàng Siêu Thị**
+📚 *README: Chương Trình Quản Lý Bán Hàng Siêu Thị*
 
 ---
 
